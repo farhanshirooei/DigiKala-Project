@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Qs_Iranyekan';
+    src: url('../fonts/Qs_Iranyekan.ttf');
+}
+
+body {
+    font-family: 'Qs_Iranyekan';
+}
+
+#location {
+    font-size: 0.8rem;
+}
+
+#nav-ul {
+    font-size: 0.9rem;
+    margin-top: -0.8rem;
+}
+
+.links:hover {
+    text-decoration: underline red 3px;
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+#img-banner {
+    height: 3.9rem;
+}
+
+#form-input {
+    border-radius: 0.5rem;
+}
+
+#form-btn {
+    border-radius: 1rem;
+}
+/* 
+.img-carousel {
+    width: 120%;
+    object-fit: cover;
+    position: relative;
+} */
